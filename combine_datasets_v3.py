@@ -130,7 +130,8 @@ def combine_fitbit_hevy(fitbit_data, hevy_workouts, user_weight_lbs=160):
         combined[date]["calories_burned_from_steps"] = int(data.get("calories_out_activities-calories", 0))
         combined[date]["sleep_hours"] = data.get("sleep_duration", 0) / 1000 / 60 / 60
         combined[date]["sleep_score"] = data.get("sleep_efficiency", None)
-        combined[date]["resting_heart_rate"] = int(data.get("heart_activities-heart").get("restingHeartRate", 0))
+        heart_info = data.get("heart_activities-heart") or {}
+        combined[date]["resting_heart_rate"] = int(heart_info.get("restingHeartRate") or 0)
         combined[date]["bodyweight"] = float(data.get('weight_body-weight', 0.0))
 
     # --------- Hevy ----------
