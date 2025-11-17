@@ -20,9 +20,11 @@ os.makedirs(RESULT_DIR, exist_ok=True)
 # ------------------------
 def refresh_callback(token):
     """Called automatically when Fitbit refreshes your token."""
-    with open(USER_DETAILS_FILE, 'w') as f:
+    token_path = os.path.join("temp_downloads", "user_details.json")
+    os.makedirs(os.path.dirname(token_path), exist_ok=True)
+    with open(token_path, 'w') as f:
         json.dump(token, f, indent=2)
-    print("Token refreshed and saved to temp directory.")
+    print(f"Token refreshed and saved to {token_path}")
 
 def load_json(secret_value):
     """Convert JSON string from GitHub Actions secret into dict."""

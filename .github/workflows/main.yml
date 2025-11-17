@@ -38,8 +38,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Save Fitbit token
-        run: echo "${{ secrets.FITBIT_USER_DETAILS }}" > temp_downloads/user_details.json
+      
+      - name: Ensure temp_downloads exists
+        run: mkdir -p temp_downloads
+
+      - name: Save initial Fitbit user details
+        run: |
+          if [ ! -f temp_downloads/user_details.json ]; then
+            echo "${FITBIT_USER_DETAILS}" > temp_downloads/user_details.json
+            echo "Saved initial Fitbit user details"
+          else
+            echo "User details already exist, skipping initial save"
+          fi
 
       # 4. Run script
       - name: Run Daily Script
