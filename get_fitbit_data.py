@@ -17,16 +17,15 @@ os.makedirs(RESULT_DIR, exist_ok=True)
 # ------------------------
 def refresh_callback(token):
     """Called automatically when Fitbit refreshes your token."""
-    # In GitHub Actions, we cannot update secrets; store token in file if needed
-    token_path = os.path.join(RESULT_DIR, "user_details.json")
+    # Store refreshed token locally for debugging; cannot update GitHub Secrets automatically
+    token_path = os.path.join(RESULT_DIR, "user_details_refreshed.json")
     with open(token_path, 'w') as f:
         json.dump(token, f, indent=2)
-    print("Token refreshed and saved to file (not repo secret).")
+    print("Token refreshed and saved locally.")
 
 def load_json(secret_value):
     """Convert JSON string from GitHub Actions secret into dict."""
     return json.loads(secret_value)
-
 
 # --- Determine the last full Fitbit day ---
 def get_yesterday_date_et():
@@ -39,7 +38,6 @@ def get_yesterday_date_et():
 # Fetch Fitbit Data
 # ------------------------
 def fetch_fitbit_data(auth2_client, days=7):
-    # today = datetime.now().date()
     today = get_yesterday_date_et()
     print(f"Using {today} as reference date for Fitbit merging")
     period = f"{days}d"
