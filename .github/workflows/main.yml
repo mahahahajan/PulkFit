@@ -1,0 +1,44 @@
+name: Daily Workout Automation
+
+on:
+  workflow_dispatch:       # allows manual triggering for testing
+  schedule:
+    # Runs daily at 8:00 AM ET (adjust UTC offset depending on daylight savings)
+    - cron: "* 12 * * *" # 8 AM ET is 12:00 UTC (standard time)
+
+
+jobs:
+  run_workout_scripts:
+    runs-on: ubuntu-latest
+
+    env:
+      GMAIL_CREDENTIALS: ${{ secrets.GMAIL_CREDENTIALS }}
+      GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
+      NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+      HEVY_EMAIL: ${{ secrets.HEVY_EMAIL }}
+      HEVY_PASSWORD: ${{ secrets.HEVY_PASSWORD }}
+      GEMINI_AI_KEY: ${{ secrets.GEMINI_AI_KEY }}
+      FITBIT_USER_DETAILS: ${{ secrets.FITBIT_USER_DETAILS }}
+      FITBIT_CLIENT_DETAILS: ${{ secrets.FITBIT_CLIENT_DETAILS }}
+
+    steps:
+      # 1. Checkout the repo
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      # 2. Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      # 3. Install dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Run script
+      - name: Run Compress Script
+        run: |
+          python run_daily.py
