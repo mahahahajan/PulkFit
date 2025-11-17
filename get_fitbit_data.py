@@ -8,6 +8,9 @@ import pytz
 # ------------------------
 # Config / Files
 # ------------------------
+TEMP_DIR = os.path.join(os.getcwd(), "temp_downloads")
+os.makedirs(TEMP_DIR, exist_ok=True)
+USER_DETAILS_FILE = os.path.join(TEMP_DIR, "user_details.json")
 RESULT_DIR = os.path.join(os.getcwd(), 'data', 'fitbit_daily_data')
 COMBINED_FILE = os.path.join(RESULT_DIR, 'fitbit_combined.json')
 os.makedirs(RESULT_DIR, exist_ok=True)
@@ -17,11 +20,9 @@ os.makedirs(RESULT_DIR, exist_ok=True)
 # ------------------------
 def refresh_callback(token):
     """Called automatically when Fitbit refreshes your token."""
-    # Save refreshed token locally for debugging; cannot update GitHub Secrets automatically
-    token_path = os.path.join(RESULT_DIR, "user_details_refreshed.json")
-    with open(token_path, 'w') as f:
+    with open(USER_DETAILS_FILE, 'w') as f:
         json.dump(token, f, indent=2)
-    print("Token refreshed and saved locally for debugging.")
+    print("Token refreshed and saved to temp directory.")
 
 def load_json(secret_value):
     """Convert JSON string from GitHub Actions secret into dict."""
@@ -42,7 +43,6 @@ def fetch_fitbit_data(auth2_client, days=7):
     print(f"Using {today} as reference date for Fitbit merging")
     period = f"{days}d"
 
-    # Time series data
     time_series = {
         "steps": auth2_client.time_series('activities/steps', period=period),
         "calories_out": auth2_client.time_series('activities/calories', period=period),
@@ -60,7 +60,6 @@ def fetch_fitbit_data(auth2_client, days=7):
         "fat": auth2_client.time_series('body/fat', period=period)
     }
 
-    # Sleep data
     sleep_data = []
     for i in range(days):
         day = today - timedelta(days=i)
@@ -83,7 +82,6 @@ def extract_daily_records(data):
     # Flatten time series
     for key, value in data['time_series'].items():
         if isinstance(value, dict) and 'very' in value:
-            # active_minutes dict
             for subkey, subval in value.items():
                 dataset = list(subval.values())[0] if isinstance(subval, dict) else subval
                 for entry in dataset:
@@ -126,14 +124,20 @@ def merge_and_save(new_data):
 # Main
 # ------------------------
 def main():
-    # Load credentials from GitHub Actions secrets
+    # Load client details from GitHub Actions secret
     client_details = load_json(os.environ["FITBIT_CLIENT_DETAILS"])
-    user_details = load_json(os.environ["FITBIT_USER_DETAILS"])
 
-    # Create Fitbit client with automatic refresh
+    # Load user details from temp directory (contains refresh token)
+    if not os.path.exists(USER_DETAILS_FILE):
+        raise FileNotFoundError(f"User details file not found at {USER_DETAILS_FILE}. "
+                                "Run initial authorization manually to generate it.")
+
+    with open(USER_DETAILS_FILE) as f:
+        user_details = json.load(f)
+
     auth2_client = Fitbit(
-        client_id=client_details['client_id'],
-        client_secret=client_details['client_secret'],
+        client_details['client_id'],
+        client_details['client_secret'],
         oauth2=True,
         access_token=user_details['access_token'],
         refresh_token=user_details['refresh_token'],
