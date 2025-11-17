@@ -9,24 +9,30 @@ jobs:
   fetch_fitbit_data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      # -------------------
+      # 1. Checkout code
+      # -------------------
+      - name: Checkout repository
         uses: actions/checkout@v3
 
+      # -------------------
+      # 2. Ensure temp_downloads exists
+      # -------------------
       - name: Ensure temp_downloads exists
         run: mkdir -p temp_downloads
 
       # -------------------
-      # Restore previous token (if exists)
+      # 3. Restore previous Fitbit token (if exists)
       # -------------------
       - name: Restore previous Fitbit token
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: fitbit-user-details
           path: temp_downloads
-        continue-on-error: true  # first run won't have artifact
+        continue-on-error: true  # first run won't have an artifact
 
       # -------------------
-      # Save initial Fitbit user details (from secret if first run)
+      # 4. Save initial Fitbit user details from secret if first run
       # -------------------
       - name: Save initial Fitbit user details
         run: |
@@ -38,16 +44,18 @@ jobs:
           fi
 
       # -------------------
-      # Run daily script
+      # 5. Run daily script
       # -------------------
       - name: Run Daily Script
         run: python run_daily.py
 
       # -------------------
-      # Persist refreshed token
+      # 6. Persist refreshed Fitbit token
       # -------------------
       - name: Save refreshed Fitbit token
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: fitbit-user-details
           path: temp_downloads/user_details.json
+          overwrite: true
+          retention-days: 30
