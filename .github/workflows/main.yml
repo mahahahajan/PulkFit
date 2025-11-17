@@ -15,25 +15,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # -------------------
-      # 2. Ensure temp_downloads exists
-      # -------------------
       - name: Ensure temp_downloads exists
         run: mkdir -p temp_downloads
 
-      # -------------------
-      # 3. Restore previous Fitbit token (if exists)
-      # -------------------
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Restore previous Fitbit token
         uses: actions/download-artifact@v4
         with:
           name: fitbit-user-details
           path: temp_downloads
-        continue-on-error: true  # first run won't have an artifact
+        continue-on-error: true
 
-      # -------------------
-      # 4. Save initial Fitbit user details from secret if first run
-      # -------------------
       - name: Save initial Fitbit user details
         run: |
           if [ ! -f temp_downloads/user_details.json ]; then
@@ -43,15 +44,9 @@ jobs:
             echo "User details already exist, skipping initial save"
           fi
 
-      # -------------------
-      # 5. Run daily script
-      # -------------------
       - name: Run Daily Script
         run: python run_daily.py
 
-      # -------------------
-      # 6. Persist refreshed Fitbit token
-      # -------------------
       - name: Save refreshed Fitbit token
         uses: actions/upload-artifact@v4
         with:
