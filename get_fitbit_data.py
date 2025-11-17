@@ -3,6 +3,7 @@ import json
 import os
 from datetime import datetime, timedelta
 from fitbit import Fitbit
+import pytz
 
 # ------------------------
 # Config / Files
@@ -26,11 +27,25 @@ def load_json(secret_value):
     """Convert JSON string from GitHub Actions secret into dict."""
     return json.loads(secret_value)
 
+
+# --- Determine the last full Fitbit day ---
+def get_yesterday_date_et():
+    """
+    Returns yesterday's date in ET as ISO string.
+    This ensures we only request Fitbit data that actually exists.
+    """
+    et = pytz.timezone("America/New_York")
+    now_et = datetime.datetime.now(et)
+    yesterday_et = now_et - datetime.timedelta(days=1)
+    return yesterday_et.date().isoformat()
+
 # ------------------------
 # Fetch Fitbit Data
 # ------------------------
 def fetch_fitbit_data(auth2_client, days=7):
-    today = datetime.now().date()
+    # today = datetime.now().date()
+    today = get_yesterday_date_et()
+    print(f"Using {today} as reference date for Fitbit merging")
     period = f"{days}d"
 
     # Time series data
