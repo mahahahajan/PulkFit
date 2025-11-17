@@ -76,7 +76,7 @@ Please generate today's workout plan, step goal, and macros.
 # ----------------------------
 def get_daily_plan_with_gemini(system_prompt: str, user_prompt: str, model: str = "gemini-2.5-flash"):
     client = OpenAI(
-        api_key=os.environ.get("NOTION_API_KEY"),
+        api_key=os.environ.get("GEMINI_AI_KEY"),
         base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
     )
 
