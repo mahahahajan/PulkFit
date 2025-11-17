@@ -31,9 +31,9 @@ def load_json(secret_value):
 # --- Determine the last full Fitbit day ---
 def get_yesterday_date_et():
     et = pytz.timezone("America/New_York")
-    now_et = datetime.now(et)
+    now_et = datetime.now()
     yesterday_et = now_et - timedelta(days=1)
-    return yesterday_et.date().isoformat()
+    return yesterday_et.date()
 
 # ------------------------
 # Fetch Fitbit Data
