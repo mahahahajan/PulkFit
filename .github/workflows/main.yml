@@ -44,6 +44,11 @@ jobs:
             echo "User details already exist, skipping initial save"
           fi
 
+      - name: Debug user_details.json
+        run: |
+          echo "Contents of temp_downloads/user_details.json:"
+          cat temp_downloads/user_details.json
+
       - name: Run Daily Script
         run: python run_daily.py
         env:
