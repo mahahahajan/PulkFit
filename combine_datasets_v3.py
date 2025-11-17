@@ -1,6 +1,7 @@
 import os
 import json
 from collections import defaultdict
+import datetime
 
 # ------------------------
 # Muscle group mapping
@@ -187,8 +188,12 @@ def combine_fitbit_hevy(fitbit_data, hevy_workouts, user_weight_lbs=160):
 # Main
 # ------------------------
 def main():
+    
     fitbit_data = load_fitbit_data()
     hevy_workouts = load_hevy_workouts()
+    print(f"Today's date in UTC: {datetime.date.today()}")
+    print(f"Fitbit CSV date range: {list(fitbit_data.keys())[:5]} ... {list(fitbit_data.keys())[-5:]}")
+
     combined = combine_fitbit_hevy(fitbit_data, hevy_workouts)
 
     os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)

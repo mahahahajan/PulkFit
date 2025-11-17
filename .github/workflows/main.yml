@@ -39,6 +39,6 @@ jobs:
           pip install -r requirements.txt
 
       # 4. Run script
-      - name: Run Compress Script
+      - name: Run Daily Script
         run: |
           python run_daily.py
