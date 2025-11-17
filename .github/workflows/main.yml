@@ -43,6 +43,8 @@ jobs:
           else
             echo "User details already exist, skipping initial save"
           fi
+        env:
+          FITBIT_USER_DETAILS: ${{ secrets.FITBIT_USER_DETAILS }}
 
       - name: Debug user_details.json
         run: |
