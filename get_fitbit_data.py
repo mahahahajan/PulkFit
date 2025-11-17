@@ -17,11 +17,11 @@ os.makedirs(RESULT_DIR, exist_ok=True)
 # ------------------------
 def refresh_callback(token):
     """Called automatically when Fitbit refreshes your token."""
-    # Store refreshed token locally for debugging; cannot update GitHub Secrets automatically
+    # Save refreshed token locally for debugging; cannot update GitHub Secrets automatically
     token_path = os.path.join(RESULT_DIR, "user_details_refreshed.json")
     with open(token_path, 'w') as f:
         json.dump(token, f, indent=2)
-    print("Token refreshed and saved locally.")
+    print("Token refreshed and saved locally for debugging.")
 
 def load_json(secret_value):
     """Convert JSON string from GitHub Actions secret into dict."""
@@ -30,7 +30,7 @@ def load_json(secret_value):
 # --- Determine the last full Fitbit day ---
 def get_yesterday_date_et():
     et = pytz.timezone("America/New_York")
-    now_et = datetime.now()
+    now_et = datetime.now(et)
     yesterday_et = now_et - timedelta(days=1)
     return yesterday_et.date()
 
@@ -130,9 +130,10 @@ def main():
     client_details = load_json(os.environ["FITBIT_CLIENT_DETAILS"])
     user_details = load_json(os.environ["FITBIT_USER_DETAILS"])
 
+    # Create Fitbit client with automatic refresh
     auth2_client = Fitbit(
-        client_details['client_id'],
-        client_details['client_secret'],
+        client_id=client_details['client_id'],
+        client_secret=client_details['client_secret'],
         oauth2=True,
         access_token=user_details['access_token'],
         refresh_token=user_details['refresh_token'],
