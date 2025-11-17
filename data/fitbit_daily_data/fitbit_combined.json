@@ -1,0 +1,2465 @@
+{
+  "2025-09-13": {
+    "steps_activities-steps": "4564",
+    "calories_out_activities-calories": "2292",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "1.8863275968",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2268.5747300000003,
+          "max": 109,
+          "min": 30,
+          "minutes": 1434,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 31.525370000000002,
+          "max": 138,
+          "min": 109,
+          "minutes": 6,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 53
+    },
+    "active_minutes_very": "7",
+    "active_minutes_fairly": "25",
+    "active_minutes_light": "1288",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 33300000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-09-13T01:11:00.000",
+    "sleep_end": "2025-09-13T10:26:30.000"
+  },
+  "2025-09-14": {
+    "steps_activities-steps": "12367",
+    "calories_out_activities-calories": "3113",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "5.1524627426",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2416.0724900000005,
+          "max": 110,
+          "min": 30,
+          "minutes": 1352,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 693.6719499999996,
+          "max": 138,
+          "min": 110,
+          "minutes": 87,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 10.47052,
+          "max": 173,
+          "min": 138,
+          "minutes": 1,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "79",
+    "active_minutes_fairly": "42",
+    "active_minutes_light": "1149",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 21060000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-09-14T02:25:30.000",
+    "sleep_end": "2025-09-14T08:16:30.000"
+  },
+  "2025-09-15": {
+    "steps_activities-steps": "10385",
+    "calories_out_activities-calories": "3149",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.4119902271",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3131.8378062500005,
+          "max": 110,
+          "min": 30,
+          "minutes": 1344,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 582.8435443799997,
+          "max": 138,
+          "min": 110,
+          "minutes": 90,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 42.90637,
+          "max": 173,
+          "min": 138,
+          "minutes": 6,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "71",
+    "active_minutes_fairly": "63",
+    "active_minutes_light": "1131",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 25380000,
+    "sleep_efficiency": 95,
+    "sleep_start": "2025-09-15T01:55:00.000",
+    "sleep_end": "2025-09-15T08:58:30.000"
+  },
+  "2025-09-16": {
+    "steps_activities-steps": "10614",
+    "calories_out_activities-calories": "3007",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.4192646196",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3221.49151994,
+          "max": 109,
+          "min": 30,
+          "minutes": 1351,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 395.14832,
+          "max": 138,
+          "min": 109,
+          "minutes": 77,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 37.10206,
+          "max": 173,
+          "min": 138,
+          "minutes": 12,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 53
+    },
+    "active_minutes_very": "33",
+    "active_minutes_fairly": "52",
+    "active_minutes_light": "1083",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 24540000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-09-16T01:14:30.000",
+    "sleep_end": "2025-09-16T08:04:00.000"
+  },
+  "2025-09-17": {
+    "steps_activities-steps": "8662",
+    "calories_out_activities-calories": "3301",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.6691658216",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2832.1618499999995,
+          "max": 110,
+          "min": 30,
+          "minutes": 1401,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 223.52284,
+          "max": 138,
+          "min": 110,
+          "minutes": 37,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 20.03056,
+          "max": 173,
+          "min": 138,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "27",
+    "active_minutes_fairly": "34",
+    "active_minutes_light": "1093",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 23100000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-09-17T00:36:00.000",
+    "sleep_end": "2025-09-17T07:01:30.000"
+  },
+  "2025-09-18": {
+    "steps_activities-steps": "7919",
+    "calories_out_activities-calories": "2864",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.3400832886",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2623.88955,
+          "max": 109,
+          "min": 30,
+          "minutes": 1419,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 119.15907000000001,
+          "max": 138,
+          "min": 109,
+          "minutes": 21,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 53
+    },
+    "active_minutes_very": "12",
+    "active_minutes_fairly": "21",
+    "active_minutes_light": "1186",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 32460000,
+    "sleep_efficiency": 95,
+    "sleep_start": "2025-09-17T22:50:30.000",
+    "sleep_end": "2025-09-18T07:52:00.000"
+  },
+  "2025-09-19": {
+    "steps_activities-steps": "12628",
+    "calories_out_activities-calories": "2941",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "5.2622124294",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2824.38589556,
+          "max": 111,
+          "min": 30,
+          "minutes": 1412,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 106.41234999999999,
+          "max": 139,
+          "min": 111,
+          "minutes": 22,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 46.09305,
+          "max": 174,
+          "min": 139,
+          "minutes": 6,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "21",
+    "active_minutes_fairly": "21",
+    "active_minutes_light": "1096",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 27480000,
+    "sleep_efficiency": 90,
+    "sleep_start": "2025-09-18T22:05:30.000",
+    "sleep_end": "2025-09-19T05:43:30.000"
+  },
+  "2025-09-20": {
+    "steps_activities-steps": "11857",
+    "calories_out_activities-calories": "3415",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.9568818102",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3029.39458,
+          "max": 111,
+          "min": 30,
+          "minutes": 1373,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 333.46329999999983,
+          "max": 139,
+          "min": 111,
+          "minutes": 58,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 52.01117,
+          "max": 174,
+          "min": 139,
+          "minutes": 9,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "60",
+    "active_minutes_fairly": "97",
+    "active_minutes_light": "1014",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 27600000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-09-19T23:40:30.000",
+    "sleep_end": "2025-09-20T07:20:30.000"
+  },
+  "2025-09-21": {
+    "steps_activities-steps": "5223",
+    "calories_out_activities-calories": "2314",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.2087800992",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2307.0425099999998,
+          "max": 111,
+          "min": 30,
+          "minutes": 1438,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 9.104800000000001,
+          "max": 139,
+          "min": 111,
+          "minutes": 2,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 174,
+          "min": 139,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "1230",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 30780000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-09-20T23:18:30.000",
+    "sleep_end": "2025-09-21T07:51:30.000"
+  },
+  "2025-09-22": {
+    "steps_activities-steps": "9473",
+    "calories_out_activities-calories": "2727",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.9291382079",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2702.41845,
+          "max": 109,
+          "min": 30,
+          "minutes": 1429,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 46.88972000000001,
+          "max": 137,
+          "min": 109,
+          "minutes": 10,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 1.36572,
+          "max": 173,
+          "min": 137,
+          "minutes": 1,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 52
+    },
+    "active_minutes_very": "6",
+    "active_minutes_fairly": "6",
+    "active_minutes_light": "1205",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 24960000,
+    "sleep_efficiency": 93,
+    "sleep_start": "2025-09-22T00:02:30.000",
+    "sleep_end": "2025-09-22T06:58:30.000"
+  },
+  "2025-09-23": {
+    "steps_activities-steps": "5601",
+    "calories_out_activities-calories": "2074",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.3838613746",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2400.36671,
+          "max": 110,
+          "min": 30,
+          "minutes": 1440,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 138,
+          "min": 110,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "1189",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 22920000,
+    "sleep_efficiency": 93,
+    "sleep_start": "2025-09-22T23:08:00.000",
+    "sleep_end": "2025-09-23T05:30:00.000"
+  },
+  "2025-09-24": {
+    "steps_activities-steps": "5042",
+    "calories_out_activities-calories": "2721",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.1216669649",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2488.0004099999996,
+          "max": 111,
+          "min": 30,
+          "minutes": 1374,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 439.7618399999999,
+          "max": 139,
+          "min": 111,
+          "minutes": 66,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 174,
+          "min": 139,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "31",
+    "active_minutes_fairly": "76",
+    "active_minutes_light": "1152",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 21720000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-09-24T02:11:00.000",
+    "sleep_end": "2025-09-24T08:13:30.000"
+  },
+  "2025-09-25": {
+    "steps_activities-steps": "15931",
+    "calories_out_activities-calories": "3478",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "6.7586395451",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3201.270442,
+          "max": 111,
+          "min": 30,
+          "minutes": 1341,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 504.06449,
+          "max": 139,
+          "min": 111,
+          "minutes": 94,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 47.8002,
+          "max": 174,
+          "min": 139,
+          "minutes": 5,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "110",
+    "active_minutes_fairly": "29",
+    "active_minutes_light": "1058",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0"
+  },
+  "2025-09-26": {
+    "steps_activities-steps": "12546",
+    "calories_out_activities-calories": "3364",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "5.2502709178",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2985.4238588799994,
+          "max": 110,
+          "min": 30,
+          "minutes": 1292,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 790.0690200000003,
+          "max": 138,
+          "min": 110,
+          "minutes": 137,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 93.66563,
+          "max": 173,
+          "min": 138,
+          "minutes": 11,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "75",
+    "active_minutes_fairly": "37",
+    "active_minutes_light": "1033",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 26820000,
+    "sleep_efficiency": 95,
+    "sleep_start": "2025-09-26T01:52:00.000",
+    "sleep_end": "2025-09-26T09:19:30.000"
+  },
+  "2025-09-27": {
+    "steps_activities-steps": "8786",
+    "calories_out_activities-calories": "4006",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.5613970661",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 1937.5014399999995,
+          "max": 111,
+          "min": 30,
+          "minutes": 1151,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 1853.5096600000004,
+          "max": 139,
+          "min": 111,
+          "minutes": 263,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 216.92185999999998,
+          "max": 174,
+          "min": 139,
+          "minutes": 26,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "198",
+    "active_minutes_fairly": "65",
+    "active_minutes_light": "995",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 26220000,
+    "sleep_efficiency": 83,
+    "sleep_start": "2025-09-27T05:07:30.000",
+    "sleep_end": "2025-09-27T12:24:30.000"
+  },
+  "2025-09-28": {
+    "steps_activities-steps": "11282",
+    "calories_out_activities-calories": "3453",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.7513583174",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2775.3706599999996,
+          "max": 111,
+          "min": 30,
+          "minutes": 1339,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 668.17851,
+          "max": 139,
+          "min": 111,
+          "minutes": 98,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 21.96533,
+          "max": 174,
+          "min": 139,
+          "minutes": 3,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "51",
+    "active_minutes_fairly": "91",
+    "active_minutes_light": "1000",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 23520000,
+    "sleep_efficiency": 87,
+    "sleep_start": "2025-09-28T05:16:00.000",
+    "sleep_end": "2025-09-28T11:48:00.000"
+  },
+  "2025-09-29": {
+    "steps_activities-steps": "7825",
+    "calories_out_activities-calories": "3015",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.2686473495",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3078.6105764000004,
+          "max": 110,
+          "min": 30,
+          "minutes": 1326,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 581.4552899999996,
+          "max": 138,
+          "min": 110,
+          "minutes": 106,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 32.32204,
+          "max": 173,
+          "min": 138,
+          "minutes": 8,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "42",
+    "active_minutes_fairly": "18",
+    "active_minutes_light": "1134",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 25140000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-09-29T00:34:30.000",
+    "sleep_end": "2025-09-29T07:34:00.000"
+  },
+  "2025-09-30": {
+    "steps_activities-steps": "16645",
+    "calories_out_activities-calories": "3378",
+    "calories_in_foods-log-caloriesIn": "1870",
+    "distance_activities-distance": "6.8589860216",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2615.69523,
+          "max": 109,
+          "min": 30,
+          "minutes": 1337,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 714.4991799999999,
+          "max": 138,
+          "min": 109,
+          "minutes": 94,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 48.710679999999996,
+          "max": 173,
+          "min": 138,
+          "minutes": 9,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 53
+    },
+    "active_minutes_very": "95",
+    "active_minutes_fairly": "46",
+    "active_minutes_light": "1066",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 17460000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-09-30T02:10:00.000",
+    "sleep_end": "2025-09-30T07:01:00.000"
+  },
+  "2025-10-01": {
+    "steps_activities-steps": "11291",
+    "calories_out_activities-calories": "2895",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.7123815667",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2896.2225399400004,
+          "max": 109,
+          "min": 30,
+          "minutes": 1345,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 561.9937799999998,
+          "max": 137,
+          "min": 109,
+          "minutes": 92,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 8.421940000000001,
+          "max": 173,
+          "min": 137,
+          "minutes": 3,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 52
+    },
+    "active_minutes_very": "49",
+    "active_minutes_fairly": "36",
+    "active_minutes_light": "1150",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 34800000,
+    "sleep_efficiency": 93,
+    "sleep_start": "2025-10-01T00:36:30.000",
+    "sleep_end": "2025-10-01T10:16:30.000"
+  },
+  "2025-10-02": {
+    "steps_activities-steps": "10262",
+    "calories_out_activities-calories": "2773",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.2618924232",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2617.6299999999997,
+          "max": 109,
+          "min": 30,
+          "minutes": 1418,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 128.49148999999997,
+          "max": 137,
+          "min": 109,
+          "minutes": 19,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 27.3144,
+          "max": 173,
+          "min": 137,
+          "minutes": 3,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 52
+    },
+    "active_minutes_very": "20",
+    "active_minutes_fairly": "8",
+    "active_minutes_light": "1195",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 31740000,
+    "sleep_efficiency": 88,
+    "sleep_start": "2025-10-02T00:44:30.000",
+    "sleep_end": "2025-10-02T09:33:30.000"
+  },
+  "2025-10-03": {
+    "steps_activities-steps": "5051",
+    "calories_out_activities-calories": "2795",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.1309372017",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2724.98196536,
+          "max": 110,
+          "min": 30,
+          "minutes": 1412,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 149.43252999999999,
+          "max": 138,
+          "min": 110,
+          "minutes": 26,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 19.57532,
+          "max": 173,
+          "min": 138,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "17",
+    "active_minutes_fairly": "59",
+    "active_minutes_light": "1111",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 22680000,
+    "sleep_efficiency": 96,
+    "sleep_start": "2025-10-03T02:39:30.000",
+    "sleep_end": "2025-10-03T08:57:30.000"
+  },
+  "2025-10-04": {
+    "steps_activities-steps": "18385",
+    "calories_out_activities-calories": "4222",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "7.4918152987",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3656.683433200001,
+          "max": 109,
+          "min": 30,
+          "minutes": 1258,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 1278.101778159999,
+          "max": 138,
+          "min": 109,
+          "minutes": 174,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 64.31881102,
+          "max": 173,
+          "min": 138,
+          "minutes": 8,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 53
+    },
+    "active_minutes_very": "142",
+    "active_minutes_fairly": "86",
+    "active_minutes_light": "914",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 27480000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-10-04T02:02:00.000",
+    "sleep_end": "2025-10-04T09:40:30.000"
+  },
+  "2025-10-05": {
+    "steps_activities-steps": "9259",
+    "calories_out_activities-calories": "3112",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.3869887358",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2714.82374,
+          "max": 110,
+          "min": 30,
+          "minutes": 1390,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 247.30913000000004,
+          "max": 138,
+          "min": 110,
+          "minutes": 37,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 150.22920000000002,
+          "max": 173,
+          "min": 138,
+          "minutes": 13,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "37",
+    "active_minutes_fairly": "42",
+    "active_minutes_light": "1123",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 24300000,
+    "sleep_efficiency": 84,
+    "sleep_start": "2025-10-05T04:13:00.000",
+    "sleep_end": "2025-10-05T10:58:00.000"
+  },
+  "2025-10-06": {
+    "steps_activities-steps": "8663",
+    "calories_out_activities-calories": "2608",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.6176535284",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3145.25224952,
+          "max": 110,
+          "min": 30,
+          "minutes": 1407,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 158.30970999999997,
+          "max": 138,
+          "min": 110,
+          "minutes": 33,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "34",
+    "active_minutes_fairly": "21",
+    "active_minutes_light": "1193",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0"
+  },
+  "2025-10-07": {
+    "steps_activities-steps": "5008",
+    "calories_out_activities-calories": "2224",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.1114043983",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2216.33594,
+          "max": 110,
+          "min": 30,
+          "minutes": 1439,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 138,
+          "min": 110,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 9.78766,
+          "max": 173,
+          "min": 138,
+          "minutes": 1,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "143",
+    "active_minutes_sedentary": "1297",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 11220000,
+    "sleep_efficiency": 92,
+    "sleep_start": "2025-10-07T04:14:00.000",
+    "sleep_end": "2025-10-07T07:21:00.000"
+  },
+  "2025-10-08": {
+    "steps_activities-steps": "4161",
+    "calories_out_activities-calories": "2176",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "1.7394509813",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2176.73006,
+          "max": 111,
+          "min": 30,
+          "minutes": 1440,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 139,
+          "min": 111,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 174,
+          "min": 139,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "4",
+    "active_minutes_fairly": "3",
+    "active_minutes_light": "140",
+    "active_minutes_sedentary": "1293",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 27780000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-10-08T01:32:30.000",
+    "sleep_end": "2025-10-08T09:16:00.000"
+  },
+  "2025-10-09": {
+    "steps_activities-steps": "8247",
+    "calories_out_activities-calories": "3702",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.6214687475",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3285.03767487,
+          "max": 111,
+          "min": 30,
+          "minutes": 1337,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 489.3829999999996,
+          "max": 139,
+          "min": 111,
+          "minutes": 88,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 98.21803000000001,
+          "max": 174,
+          "min": 139,
+          "minutes": 15,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "127",
+    "active_minutes_fairly": "76",
+    "active_minutes_light": "191",
+    "active_minutes_sedentary": "1046",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 27420000,
+    "sleep_efficiency": 95,
+    "sleep_start": "2025-10-09T02:22:30.000",
+    "sleep_end": "2025-10-09T09:59:30.000"
+  },
+  "2025-10-10": {
+    "steps_activities-steps": "9829",
+    "calories_out_activities-calories": "2766",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.1027095512",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2476.27798,
+          "max": 111,
+          "min": 30,
+          "minutes": 1402,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 272.46114000000006,
+          "max": 139,
+          "min": 111,
+          "minutes": 36,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 16.61626,
+          "max": 174,
+          "min": 139,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "47",
+    "active_minutes_fairly": "19",
+    "active_minutes_light": "209",
+    "active_minutes_sedentary": "1165",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 32640000,
+    "sleep_efficiency": 92,
+    "sleep_start": "2025-10-10T01:05:00.000",
+    "sleep_end": "2025-10-10T10:09:30.000"
+  },
+  "2025-10-11": {
+    "steps_activities-steps": "7198",
+    "calories_out_activities-calories": "2814",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.0098344419",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2412.7720000000004,
+          "max": 111,
+          "min": 30,
+          "minutes": 1370,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 387.8644799999999,
+          "max": 139,
+          "min": 111,
+          "minutes": 68,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 13.429579999999998,
+          "max": 174,
+          "min": 139,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "18",
+    "active_minutes_fairly": "38",
+    "active_minutes_light": "236",
+    "active_minutes_sedentary": "1148",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 28800000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-10-11T04:22:30.000",
+    "sleep_end": "2025-10-11T12:22:30.000"
+  },
+  "2025-10-12": {
+    "steps_activities-steps": "2207",
+    "calories_out_activities-calories": "2100",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "0.9294302523",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2102.86737,
+          "max": 111,
+          "min": 30,
+          "minutes": 1440,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 139,
+          "min": 111,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 174,
+          "min": 139,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "121",
+    "active_minutes_sedentary": "1319",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 32100000,
+    "sleep_efficiency": 87,
+    "sleep_start": "2025-10-12T02:59:00.000",
+    "sleep_end": "2025-10-12T11:54:00.000"
+  },
+  "2025-10-13": {
+    "steps_activities-steps": "13184",
+    "calories_out_activities-calories": "3017",
+    "calories_in_foods-log-caloriesIn": "1512",
+    "distance_activities-distance": "5.5117221675",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3491.6389026399997,
+          "max": 110,
+          "min": 30,
+          "minutes": 1371,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 479.25049570000033,
+          "max": 138,
+          "min": 110,
+          "minutes": 68,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 5.60002105,
+          "max": 173,
+          "min": 138,
+          "minutes": 1,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "42",
+    "active_minutes_fairly": "16",
+    "active_minutes_light": "267",
+    "active_minutes_sedentary": "1115",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 32520000,
+    "sleep_efficiency": 93,
+    "sleep_start": "2025-10-13T00:52:00.000",
+    "sleep_end": "2025-10-13T09:54:30.000"
+  },
+  "2025-10-14": {
+    "steps_activities-steps": "11449",
+    "calories_out_activities-calories": "2923",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.823272091",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2688.30601,
+          "max": 110,
+          "min": 30,
+          "minutes": 1403,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 234.22098000000003,
+          "max": 138,
+          "min": 110,
+          "minutes": 37,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "53",
+    "active_minutes_fairly": "20",
+    "active_minutes_light": "204",
+    "active_minutes_sedentary": "1163",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 26220000,
+    "sleep_efficiency": 95,
+    "sleep_start": "2025-10-14T02:00:30.000",
+    "sleep_end": "2025-10-14T09:18:00.000"
+  },
+  "2025-10-15": {
+    "steps_activities-steps": "7326",
+    "calories_out_activities-calories": "2583",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.1278303458",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3014.4504165199996,
+          "max": 110,
+          "min": 30,
+          "minutes": 1407,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 107.20902000000001,
+          "max": 138,
+          "min": 110,
+          "minutes": 28,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 22.98962,
+          "max": 173,
+          "min": 138,
+          "minutes": 5,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "5",
+    "active_minutes_fairly": "3",
+    "active_minutes_light": "257",
+    "active_minutes_sedentary": "1175",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 32100000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-10-15T01:27:00.000",
+    "sleep_end": "2025-10-15T10:22:30.000"
+  },
+  "2025-10-16": {
+    "steps_activities-steps": "9339",
+    "calories_out_activities-calories": "2711",
+    "calories_in_foods-log-caloriesIn": "1088",
+    "distance_activities-distance": "3.9001139595",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2579.61746,
+          "max": 110,
+          "min": 30,
+          "minutes": 1424,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 131.56436,
+          "max": 138,
+          "min": 110,
+          "minutes": 16,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "47",
+    "active_minutes_fairly": "10",
+    "active_minutes_light": "192",
+    "active_minutes_sedentary": "1191",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 26640000,
+    "sleep_efficiency": 87,
+    "sleep_start": "2025-10-16T03:38:00.000",
+    "sleep_end": "2025-10-16T11:02:30.000"
+  },
+  "2025-10-17": {
+    "steps_activities-steps": "7619",
+    "calories_out_activities-calories": "2408",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.2609560169",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2343.16682829,
+          "max": 111,
+          "min": 30,
+          "minutes": 1423,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 101.74614000000003,
+          "max": 139,
+          "min": 111,
+          "minutes": 15,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 17.52674,
+          "max": 174,
+          "min": 139,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "19",
+    "active_minutes_fairly": "20",
+    "active_minutes_light": "219",
+    "active_minutes_sedentary": "1182",
+    "weight_body-weight": "160.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 28320000,
+    "sleep_efficiency": 95,
+    "sleep_start": "2025-10-17T02:02:30.000",
+    "sleep_end": "2025-10-17T09:54:30.000"
+  },
+  "2025-10-27": {
+    "steps_activities-steps": "14111",
+    "calories_out_activities-calories": "3225",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "6.40905052",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3025.3409908,
+          "max": 110,
+          "min": 30,
+          "minutes": 1372,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 279.55536,
+          "max": 138,
+          "min": 110,
+          "minutes": 38,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 365.96964,
+          "max": 173,
+          "min": 138,
+          "minutes": 30,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "63",
+    "active_minutes_fairly": "15",
+    "active_minutes_light": "221",
+    "active_minutes_sedentary": "1141",
+    "weight_body-weight": "163.0",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 30900000,
+    "sleep_efficiency": 94,
+    "sleep_start": "2025-10-27T01:03:30.000",
+    "sleep_end": "2025-10-27T09:38:30.000"
+  },
+  "2025-10-28": {
+    "steps_activities-steps": "7428",
+    "calories_out_activities-calories": "2905",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.1390019784",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2672.57296,
+          "max": 111,
+          "min": 30,
+          "minutes": 1400,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 213.54976,
+          "max": 139,
+          "min": 111,
+          "minutes": 38,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 19.205759999999998,
+          "max": 174,
+          "min": 139,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "22",
+    "active_minutes_fairly": "30",
+    "active_minutes_light": "285",
+    "active_minutes_sedentary": "1103",
+    "weight_body-weight": "161.6",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 28740000,
+    "sleep_efficiency": 96,
+    "sleep_start": "2025-10-28T00:33:00.000",
+    "sleep_end": "2025-10-28T08:32:30.000"
+  },
+  "2025-10-29": {
+    "steps_activities-steps": "14051",
+    "calories_out_activities-calories": "3274",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "5.8908909469",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2952.87817728,
+          "max": 111,
+          "min": 30,
+          "minutes": 1328,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 456.48734592000017,
+          "max": 139,
+          "min": 111,
+          "minutes": 85,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 255.87291999999997,
+          "max": 174,
+          "min": 139,
+          "minutes": 27,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "84",
+    "active_minutes_fairly": "28",
+    "active_minutes_light": "216",
+    "active_minutes_sedentary": "1112",
+    "weight_body-weight": "161.5",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 28200000,
+    "sleep_efficiency": 97,
+    "sleep_start": "2025-10-29T01:37:30.000",
+    "sleep_end": "2025-10-29T09:27:30.000"
+  },
+  "2025-10-30": {
+    "steps_activities-steps": "6077",
+    "calories_out_activities-calories": "2529",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.5466848604",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2460.488,
+          "max": 110,
+          "min": 30,
+          "minutes": 1429,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 69.007,
+          "max": 138,
+          "min": 110,
+          "minutes": 11,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "233",
+    "active_minutes_sedentary": "1207",
+    "weight_body-weight": "161.4",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 27720000,
+    "sleep_efficiency": 90,
+    "sleep_start": "2025-10-30T02:02:00.000",
+    "sleep_end": "2025-10-30T09:44:30.000"
+  },
+  "2025-10-31": {
+    "steps_activities-steps": "6131",
+    "calories_out_activities-calories": "2980",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "2.5677325668",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2076.1510000000003,
+          "max": 111,
+          "min": 30,
+          "minutes": 1295,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 883.72375,
+          "max": 139,
+          "min": 111,
+          "minutes": 143,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 20.7935,
+          "max": 174,
+          "min": 139,
+          "minutes": 2,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "62",
+    "active_minutes_fairly": "101",
+    "active_minutes_light": "125",
+    "active_minutes_sedentary": "1152",
+    "weight_body-weight": "161.4",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 21660000,
+    "sleep_efficiency": 94,
+    "sleep_start": "2025-10-31T01:26:00.000",
+    "sleep_end": "2025-10-31T07:27:30.000"
+  },
+  "2025-11-01": {
+    "steps_activities-steps": "9444",
+    "calories_out_activities-calories": "3480",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.9342744621",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2287.6277500000006,
+          "max": 112,
+          "min": 30,
+          "minutes": 1239,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 1201.2244999999991,
+          "max": 139,
+          "min": 112,
+          "minutes": 201,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 174,
+          "min": 139,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 57
+    },
+    "active_minutes_very": "82",
+    "active_minutes_fairly": "97",
+    "active_minutes_light": "181",
+    "active_minutes_sedentary": "1080",
+    "weight_body-weight": "161.4",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 34740000,
+    "sleep_efficiency": 89,
+    "sleep_start": "2025-11-01T03:28:30.000",
+    "sleep_end": "2025-11-01T13:07:30.000"
+  },
+  "2025-11-02": {
+    "steps_activities-steps": "17354",
+    "calories_out_activities-calories": "4328",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "7.3573257178",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3183.1587805000004,
+          "max": 113,
+          "min": 30,
+          "minutes": 1248,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 1149.1264999999999,
+          "max": 140,
+          "min": 113,
+          "minutes": 172,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 153.43775,
+          "max": 174,
+          "min": 140,
+          "minutes": 20,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 59
+    },
+    "active_minutes_very": "139",
+    "active_minutes_fairly": "142",
+    "active_minutes_light": "269",
+    "active_minutes_sedentary": "890",
+    "weight_body-weight": "161.4",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 24060000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-11-02T02:48:00.000",
+    "sleep_end": "2025-11-02T09:29:00.000"
+  },
+  "2025-11-10": {
+    "steps_activities-steps": "1371",
+    "calories_out_activities-calories": "1916",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "0.5801997584",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 1916.09376,
+          "max": 109,
+          "min": 30,
+          "minutes": 1440,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 137,
+          "min": 109,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 137,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 52
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "101",
+    "active_minutes_sedentary": "1339",
+    "weight_body-weight": "161.8",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 23400000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-11-10T01:39:00.000",
+    "sleep_end": "2025-11-10T08:09:00.000"
+  },
+  "2025-11-11": {
+    "steps_activities-steps": "13008",
+    "calories_out_activities-calories": "3449",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "5.5505560029",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 3338.164512,
+          "max": 109,
+          "min": 30,
+          "minutes": 1410,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 121.13680000000002,
+          "max": 137,
+          "min": 109,
+          "minutes": 30,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 137,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 52
+    },
+    "active_minutes_very": "138",
+    "active_minutes_fairly": "21",
+    "active_minutes_light": "208",
+    "active_minutes_sedentary": "1073",
+    "weight_body-weight": "161.5",
+    "fat_body-fat": "0.0"
+  },
+  "2025-11-12": {
+    "steps_activities-steps": "11065",
+    "calories_out_activities-calories": "2895",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "5.0705927384",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2709.49107061,
+          "max": 109,
+          "min": 30,
+          "minutes": 1376,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 175.51003,
+          "max": 137,
+          "min": 109,
+          "minutes": 45,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 109.76673616000001,
+          "max": 173,
+          "min": 137,
+          "minutes": 12,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 74.30320462,
+          "max": 220,
+          "min": 173,
+          "minutes": 7,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 52
+    },
+    "active_minutes_very": "30",
+    "active_minutes_fairly": "3",
+    "active_minutes_light": "263",
+    "active_minutes_sedentary": "1144",
+    "weight_body-weight": "161.2",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 29160000,
+    "sleep_efficiency": 96,
+    "sleep_start": "2025-11-12T01:43:00.000",
+    "sleep_end": "2025-11-12T09:49:00.000"
+  },
+  "2025-11-13": {
+    "steps_activities-steps": "9018",
+    "calories_out_activities-calories": "2690",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.8271705738",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2612.89558,
+          "max": 110,
+          "min": 30,
+          "minutes": 1423,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 80.73233000000002,
+          "max": 138,
+          "min": 110,
+          "minutes": 17,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "25",
+    "active_minutes_fairly": "6",
+    "active_minutes_light": "206",
+    "active_minutes_sedentary": "1203",
+    "weight_body-weight": "161.2",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 22920000,
+    "sleep_efficiency": 91,
+    "sleep_start": "2025-11-13T01:51:30.000",
+    "sleep_end": "2025-11-13T08:13:30.000"
+  },
+  "2025-11-14": {
+    "steps_activities-steps": "11185",
+    "calories_out_activities-calories": "2951",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "4.7038327418",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2782.35354,
+          "max": 110,
+          "min": 30,
+          "minutes": 1416,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 169.57215,
+          "max": 138,
+          "min": 110,
+          "minutes": 24,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 173,
+          "min": 138,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 173,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 54
+    },
+    "active_minutes_very": "59",
+    "active_minutes_fairly": "49",
+    "active_minutes_light": "184",
+    "active_minutes_sedentary": "1148",
+    "weight_body-weight": "161.2",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 30360000,
+    "sleep_efficiency": 90,
+    "sleep_start": "2025-11-14T01:51:00.000",
+    "sleep_end": "2025-11-14T10:17:30.000"
+  },
+  "2025-11-15": {
+    "steps_activities-steps": "7966",
+    "calories_out_activities-calories": "2681",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "3.4967272379",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 2330.96047,
+          "max": 111,
+          "min": 30,
+          "minutes": 1399,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 317.90495999999996,
+          "max": 139,
+          "min": 111,
+          "minutes": 38,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 32.54415,
+          "max": 174,
+          "min": 139,
+          "minutes": 3,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 55
+    },
+    "active_minutes_very": "56",
+    "active_minutes_fairly": "18",
+    "active_minutes_light": "115",
+    "active_minutes_sedentary": "1251",
+    "weight_body-weight": "161.2",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 28500000,
+    "sleep_efficiency": 88,
+    "sleep_start": "2025-11-15T02:00:00.000",
+    "sleep_end": "2025-11-15T09:55:30.000"
+  },
+  "2025-11-16": {
+    "steps_activities-steps": "356",
+    "calories_out_activities-calories": "1093",
+    "calories_in_foods-log-caloriesIn": "0",
+    "distance_activities-distance": "0.1515803955",
+    "floors_activities-floors": "0",
+    "heart_activities-heart": {
+      "customHeartRateZones": [],
+      "heartRateZones": [
+        {
+          "caloriesOut": 1091.9989699999999,
+          "max": 111,
+          "min": 30,
+          "minutes": 1440,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 139,
+          "min": 111,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 174,
+          "min": 139,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 174,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "restingHeartRate": 56
+    },
+    "active_minutes_very": "0",
+    "active_minutes_fairly": "0",
+    "active_minutes_light": "40",
+    "active_minutes_sedentary": "1400",
+    "weight_body-weight": "161.2",
+    "fat_body-fat": "0.0",
+    "sleep_duration": 15780000,
+    "sleep_efficiency": 90,
+    "sleep_start": "2025-11-15T22:10:00.000",
+    "sleep_end": "2025-11-16T02:33:30.000"
+  }
+}

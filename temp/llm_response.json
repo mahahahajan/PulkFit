@@ -1,0 +1,61 @@
+{
+  "day_focus": "Full Body (Push Bias)",
+  "warmup": [
+    "5-10 minutes light cardio (treadmill or cycling)",
+    "Dynamic stretches (arm circles, leg swings, torso twists)",
+    "Band pull-aparts (3x15, focus on scapular retraction for posture and shoulder health)",
+    "Cat-cow + Thoracic rotations (5-8 reps each side)",
+    "Goblet squat holds (2x30s, to prime hip mobility for squats)"
+  ],
+  "main_lifts": [
+    {
+      "exercise": "Incline Bench Press (Barbell)",
+      "sets": 4,
+      "reps_range": "5-7",
+      "target_weight_lbs": 125,
+      "rpe_range": "7.5-8.5",
+      "notes": "Last session (11/11) had 4.5 reps at 128.8 lbs, indicating difficulty. Slightly reduce weight to 125 lbs and aim for clean 5-7 reps to improve consistency and form before increasing load. Focus on controlled eccentric and solid lockout."
+    },
+    {
+      "exercise": "Pull Up (Assisted)",
+      "sets": 4,
+      "reps_range": "5",
+      "assistance_lbs": 155,
+      "rpe_range": "7-8",
+      "notes": "Last session (11/11) was 4x5 at 150 lbs assistance. Decrease assistance by 5 lbs to 155 lbs. Focus on pulling with the lats, controlled eccentric, and reaching full lockout at the bottom. This means you will be pulling 5 lbs more of your body weight this session."
+    },
+    {
+      "exercise": "Barbell Squat",
+      "sets": 4,
+      "reps_range": "5",
+      "target_weight_lbs": 155,
+      "rpe_range": "7.5-8.5",
+      "notes": "Last session (11/11) was 4x5 at 148.8 lbs. Increase load by 5 lbs. Maintain good depth and control. Focus on bracing to protect the lower back."
+    },
+    {
+      "exercise": "Smith Machine Bent Over Row",
+      "sets": 3,
+      "reps_range": "8-10",
+      "target_weight_lbs": "95-105",
+      "rpe_range": "7-8",
+      "notes": "Prioritizing smith machine rows for back thickness and width. Use a weight that allows strict form, focusing on squeezing the shoulder blades together at the top. The smith machine can help with stability, reducing lower back strain."
+    }
+  ],
+  "accessories": [
+    {
+      "exercise": "Lateral Raise (Dumbbell)",
+      "sets": 3,
+      "reps_range": "10-15",
+      "target_weight_lbs": "15-20",
+      "rpe_range": "7-8",
+      "notes": "Focus on driving with the elbows and maintaining tension on the side delts. Light weight, strict form for 'boulder shoulder' development."
+    }
+  ],
+  "conditioning": "Post-workout: 20-30 minutes brisk walk or light cycling (Zone 2 cardio) for active recovery and to hit daily steps. Focus on a relaxed pace.",
+  "step_goal": "8000 steps",
+  "macros": {
+    "protein_target_g": 140,
+    "notes": "Prioritize protein intake throughout the day. Aim for balanced carbohydrates and fats to fuel recovery and performance. Ensure adequate hydration (80 oz minimum)."
+  },
+  "notes": "Today's workout balances your primary goals for back, chest, and shoulders, along with your secondary leg movement. You had good sleep and RHR, which supports a solid lifting session despite self-reported 'moderate fatigue'. We're progressing your pull-ups and squats based on successful completion in the last session. For Incline Bench, the slight reduction in weight while aiming for a higher rep range (5-7 reps from 4.5 reps) is intended to build more consistent and cleaner reps, addressing the previous session's performance. Focus on controlled movements and strict form to manage historical forearm tendon strain and lower back tightness. This session is your second of the week; aim for 1-2 more lifting sessions and dedicated cardio/active recovery days to meet your weekly goals and manage recovery effectively. Consider adding face pulls on a separate day or as a quick finisher if you feel you need more rear delt work for posture."
+}

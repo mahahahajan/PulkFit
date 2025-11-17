@@ -1,0 +1,226 @@
+{
+  "date_for_plan": "2025-11-16",
+  "sleep_last_night": {
+    "hours": 7.916666666666667,
+    "score": 88,
+    "resting_hr": 55
+  },
+  "bodyweight": 161.2,
+  "week_volume": {
+    "back": 8,
+    "chest": 4,
+    "shoulders": 7,
+    "triceps": 4,
+    "quads": 4,
+    "glutes": 4,
+    "hamstrings": 4,
+    "rear delts": 3
+  },
+  "recent_workouts": [
+    {
+      "date": "2025-11-11",
+      "had_workout": true,
+      "focus": "pull",
+      "volume_sets": {
+        "back": 8,
+        "chest": 4,
+        "shoulders": 7,
+        "triceps": 4,
+        "quads": 4,
+        "glutes": 4,
+        "hamstrings": 4,
+        "rear delts": 3
+      },
+      "total_sets": 19,
+      "total_reps": 104,
+      "estimated_volume": 11200.0,
+      "key_lifts": [
+        {
+          "exercise": "Pull Up (Assisted)",
+          "sets": 4,
+          "avg_weight": 150.0,
+          "avg_reps": 5.0,
+          "muscles": [
+            "back"
+          ]
+        },
+        {
+          "exercise": "Squat (Barbell)",
+          "sets": 4,
+          "avg_weight": 148.8,
+          "avg_reps": 5.0,
+          "muscles": [
+            "glutes",
+            "hamstrings",
+            "quads"
+          ]
+        },
+        {
+          "exercise": "Incline Bench Press (Barbell)",
+          "sets": 4,
+          "avg_weight": 128.8,
+          "avg_reps": 4.5,
+          "muscles": [
+            "chest",
+            "shoulders",
+            "triceps"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2025-11-08",
+      "had_workout": true,
+      "focus": "push",
+      "volume_sets": {
+        "shoulders": 4,
+        "triceps": 8,
+        "biceps": 4,
+        "forearms": 4
+      },
+      "total_sets": 14,
+      "total_reps": 137,
+      "estimated_volume": 4347.5,
+      "key_lifts": [
+        {
+          "exercise": "Seated Shoulder Press (Machine)",
+          "sets": 4,
+          "avg_weight": 60.0,
+          "avg_reps": 8.0,
+          "muscles": [
+            "shoulders",
+            "triceps"
+          ]
+        },
+        {
+          "exercise": "Hammer Curl (Dumbbell)",
+          "sets": 4,
+          "avg_weight": 22.5,
+          "avg_reps": 11.5,
+          "muscles": [
+            "biceps",
+            "forearms"
+          ]
+        },
+        {
+          "exercise": "Triceps Rope Pushdown",
+          "sets": 4,
+          "avg_weight": 32.5,
+          "avg_reps": 7.2,
+          "muscles": [
+            "triceps"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2025-11-06",
+      "had_workout": true,
+      "focus": "pull",
+      "volume_sets": {
+        "biceps": 4,
+        "back": 7,
+        "chest": 4,
+        "shoulders": 7,
+        "triceps": 4,
+        "quads": 3,
+        "glutes": 3,
+        "hamstrings": 3,
+        "rear delts": 3
+      },
+      "total_sets": 17,
+      "total_reps": 103,
+      "estimated_volume": 10452.5,
+      "key_lifts": [
+        {
+          "exercise": "Squat (Barbell)",
+          "sets": 3,
+          "avg_weight": 145.0,
+          "avg_reps": 6.3,
+          "muscles": [
+            "glutes",
+            "hamstrings",
+            "quads"
+          ]
+        },
+        {
+          "exercise": "Chin Up (Assisted)",
+          "sets": 3,
+          "avg_weight": 150.0,
+          "avg_reps": 5.7,
+          "muscles": [
+            "back",
+            "biceps"
+          ]
+        },
+        {
+          "exercise": "Incline Bench Press (Barbell)",
+          "sets": 4,
+          "avg_weight": 130.0,
+          "avg_reps": 4.8,
+          "muscles": [
+            "chest",
+            "shoulders",
+            "triceps"
+          ]
+        }
+      ],
+      "notes": "Neutral Grip | Neutral Grip | Neutral Grip"
+    }
+  ],
+  "last_workout_summary": {
+    "date": "2025-11-11",
+    "had_workout": true,
+    "focus": "pull",
+    "volume_sets": {
+      "back": 8,
+      "chest": 4,
+      "shoulders": 7,
+      "triceps": 4,
+      "quads": 4,
+      "glutes": 4,
+      "hamstrings": 4,
+      "rear delts": 3
+    },
+    "total_sets": 19,
+    "total_reps": 104,
+    "estimated_volume": 11200.0,
+    "key_lifts": [
+      {
+        "exercise": "Pull Up (Assisted)",
+        "sets": 4,
+        "avg_weight": 150.0,
+        "avg_reps": 5.0,
+        "muscles": [
+          "back"
+        ]
+      },
+      {
+        "exercise": "Squat (Barbell)",
+        "sets": 4,
+        "avg_weight": 148.8,
+        "avg_reps": 5.0,
+        "muscles": [
+          "glutes",
+          "hamstrings",
+          "quads"
+        ]
+      },
+      {
+        "exercise": "Incline Bench Press (Barbell)",
+        "sets": 4,
+        "avg_weight": 128.8,
+        "avg_reps": 4.5,
+        "muscles": [
+          "chest",
+          "shoulders",
+          "triceps"
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "low_sleep_flag": false
+}
