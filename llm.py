@@ -80,18 +80,20 @@ def get_daily_plan_with_gemini(system_prompt: str, user_prompt: str, model: str 
         base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
     )
 
-    response = client.chat.completions.create(
+    response = client.responses.create(
         model=model,
-        messages=[
+        input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
+        tools=[{"type": "web_search"}]
     )
 
-    choices = response.choices
-    if not choices:
-        raise RuntimeError("No output from Gemini API")
-    return choices[0].message.content
+    output = response.output_text
+    if not output:
+        raise RuntimeError("No output from model")
+
+    return output
 
 # ----------------------------
 # RUN LLM
