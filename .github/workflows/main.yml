@@ -43,6 +43,15 @@ jobs:
           else
             echo "File exists, skipping"
           fi
+        env:
+            GMAIL_CREDENTIALS: ${{ secrets.GMAIL_CREDENTIALS }}
+            GMAIL_TOKEN: ${{ secrets.GMAIL_TOKEN }}
+            NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+            HEVY_EMAIL: ${{ secrets.HEVY_EMAIL }}
+            HEVY_PASSWORD: ${{ secrets.HEVY_PASSWORD }}
+            GEMINI_AI_KEY: ${{ secrets.GEMINI_AI_KEY }}
+            FITBIT_USER_DETAILS: ${{ secrets.FITBIT_USER_DETAILS }}
+            FITBIT_CLIENT_DETAILS: ${{ secrets.FITBIT_CLIENT_DETAILS }}
 
       - name: Debug user_details.json
         run: |
