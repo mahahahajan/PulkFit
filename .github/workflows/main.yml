@@ -38,7 +38,7 @@ jobs:
       - name: Save initial Fitbit user details
         run: |
           if [ ! -f temp_downloads/user_details.json ]; then
-            echo "$FITBIT_USER_DETAILS_B64" | base64 -d > temp_downloads/user_details.json
+            echo "$FITBIT_USER_DETAILS" | base64 -d > temp_downloads/user_details.json
             echo "Decoded B64 user details into file"
           else
             echo "File exists, skipping"
