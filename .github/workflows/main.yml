@@ -38,13 +38,11 @@ jobs:
       - name: Save initial Fitbit user details
         run: |
           if [ ! -f temp_downloads/user_details.json ]; then
-            echo "${FITBIT_USER_DETAILS}" > temp_downloads/user_details.json
-            echo "Saved initial Fitbit user details"
+            echo "$FITBIT_USER_DETAILS_B64" | base64 -d > temp_downloads/user_details.json
+            echo "Decoded B64 user details into file"
           else
-            echo "User details already exist, skipping initial save"
+            echo "File exists, skipping"
           fi
-        env:
-          FITBIT_USER_DETAILS: ${{ secrets.FITBIT_USER_DETAILS }}
 
       - name: Debug user_details.json
         run: |
