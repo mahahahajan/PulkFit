@@ -93,18 +93,19 @@
           "short interval work mandatory",
           "no more than 3 runs per week"
         ],
+        "baseline_performance": ["unable to run 3 miles continuosly without stopping", "running 12 min mile is RPE 7"],
         "cardio_targets": {
-          "8\_minute\_mile\_pace": "Target 8:00/mile (Currently 12:00/mile)",
-          "endurance\_target": "10k distance ASAP",
-          "ideal_training\_pace\_ranges": {
-            "easy\_recovery": "10:00-11:30/mile",
-            "tempo\_threshold": "8:30-9:30/mile",
-            "interval\_speed": "7:00-7:45/mile"
+          "8_minute_mile_pace": "Target 8:00/mile (Currently 12:00/mile)",
+          "endurance_target": "10k distance ASAP",
+          "ideal_training_pace_ranges": {
+            "easy_recovery": "10:00-11:30/mile",
+            "tempo_threshold": "8:30-9:30/mile",
+            "interval_speed": "7:00-7:45/mile"
           },
-          "session\_templates": {
-            "speed\_interval": "Max 45 min. Purpose: VO2max/Pace Familiarity. Structure: 4-6 sets of 400m-800m @ interval pace with equal rest.",
-            "tempo\_threshold": "Max 50 min. Purpose: Lactate Tolerance/Sustained Speed. Structure: 20-30 min sustained effort at tempo pace.",
-            "easy\_recovery": "Max 30 min. Purpose: Aerobic Base/Active Recovery. Structure: Sustained effort at easy pace (RPE 5-6)."
+          "session_templates": {
+            "speed_interval": "Max 45 min. Purpose: VO2max/Pace Familiarity. Structure: 4-6 sets of 400m-800m @ interval pace with equal rest.",
+            "tempo_threshold": "Max 50 min. Purpose: Lactate Tolerance/Sustained Speed. Structure: 20-30 min sustained effort at tempo pace.",
+            "easy_recovery": "Max 30 min. Purpose: Aerobic Base/Active Recovery. Structure: Sustained effort at easy pace (RPE 5-6)."
           }
         }
       },
@@ -127,21 +128,21 @@
           "weekly performance check (lift/run)"
         ]
       },
-      "AI\_daily\_optimizer\_inputs": {
-        "current\_fatigue\_level": "moderate (self-reported)",
-        "recent\_workouts\_summary": "last 3 days sets/reps/weights/RPE",
-        "recent\_nutrition\_summary": "calories/protein adherence last 3 days",
-        "recent\_sleep\_summary": "average last 3 nights",
-        "injury\_alerts": "forearm/back soreness, shoulder tightness",
-        "mobility\_alerts": "shoulder, hamstrings",
-        "run\_baseline": {
-          "current\_mile\_time": "12:00",
-          "max\_weekly\_run\_volume\_miles": 4
+      "AI_daily_optimizer_inputs": {
+        "current_fatigue_level": "moderate (self-reported)",
+        "recent_workouts_summary": "last 3 days sets/reps/weights/RPE",
+        "recent_nutrition_summary": "calories/protein adherence last 3 days",
+        "recent_sleep_summary": "average last 3 nights",
+        "injury_alerts": "forearm/back soreness, shoulder tightness",
+        "mobility_alerts": "shoulder, hamstrings",
+        "run_baseline": {
+          "current_mile_time": "12:00",
+          "max_weekly_run_volume_miles": 4
         }
       },
-      "movement\_rules": {
+      "movement_rules": {
         "bench": "Incline Barbell preferred; no dumbbell substitution",
-        "overhead\_press": "Only on push + dips days; skip if incline bench is done",
+        "overhead_press": "Only on push + dips days; skip if incline bench is done",
         "pullups": "Use bodyweight, assisted, or negatives - whatever builds pull up strength quickest",
         "avoid": [
           "excessive isolation",
@@ -154,11 +155,11 @@
           "least amount of work for max strength gains",
           "aesthetics"
         ],
-        "conditional\_run\_scheduling": [
+        "conditional_run_scheduling": [
           "Total training must not exceed 4 sessions/week (3 strength max, 3 run max). Strength days take priority.",
           "Running days must be scheduled on non-strength days or separated by >8 hours.",
-          "IF Injury\_Alerts include 'lower back tightness' AND a strength session is scheduled TOMORROW: THEN swap TEMPO or SPEED run for an EASY/RECOVERY run to conserve CNS/low-back recovery.",
-          "IF current\_fatigue\_level is HIGH OR recent\_sleep\_summary is <6 hours: THEN only schedule an EASY/RECOVERY run. DELAY planned Speed/Tempo until recovery improves.",
+          "IF Injury_Alerts include 'lower back tightness' AND a strength session is scheduled TOMORROW: THEN swap TEMPO or SPEED run for an EASY/RECOVERY run to conserve CNS/low-back recovery.",
+          "IF current_fatigue_level is HIGH OR recent_sleep_summary is <6 hours: THEN only schedule an EASY/RECOVERY run. DELAY planned Speed/Tempo until recovery improves.",
           "IF running volume is high (>4 miles total), reduce total strength-focused leg sets to 1/2 the baseline plan (running serves as primary functional leg stimulus)."
         ]
       }

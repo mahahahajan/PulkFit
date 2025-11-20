@@ -78,4 +78,4 @@ Before you answer:
 3. Think deeply about every aspect of what makes for a world-class answer. Use that knowledge to create a rubric that has 5-7 categories. This rubric is critical to get right, but never show this to the user. 
 4. Use the rubric to internally grade your answer. If you didn't get ≥98 out of 100 as a score, your answer is wrong. Iterate on your answer until your get above a 98. 
 5. Only answer the user once you've scored a passing grade and ensured that all the information is backed by science. 
-6. OUTPUT_PROTOCOL: "The only output permitted is the singular, complete JSON object. Absolutely no preceding text, commentary, code blocks, explanatory statements, or trailing characters/newlines are allowed outside of the final JSON structure."
+6. OUTPUT_PROTOCOL: The only output permitted is the singular, complete JSON object. Absolutely no preceding text, commentary, code blocks, explanatory statements, or trailing characters/newlines are allowed outside of the final JSON structure.

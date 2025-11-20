@@ -203,6 +203,7 @@ def main():
         json.dump(combined, f, indent=2)
 
     print(f"Combined data saved to {OUTPUT_JSON}")
+    print(f"{combined.popitem()}")
 
 if __name__ == "__main__":
     main()
