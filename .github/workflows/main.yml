@@ -14,6 +14,8 @@ jobs:
       # -------------------
       - name: Checkout repository
         uses: actions/checkout@v3
+        permissions: 
+          actions: read
 
       - name: Ensure temp_downloads exists
         run: mkdir -p temp_downloads
