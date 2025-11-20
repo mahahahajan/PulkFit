@@ -14,8 +14,6 @@ jobs:
       # -------------------
       - name: Checkout repository
         uses: actions/checkout@v3
-        permissions: 
-          actions: read
 
       - name: Ensure temp_downloads exists
         run: mkdir -p temp_downloads
@@ -31,13 +29,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Restore previous Fitbit token (Fixed)
-        uses: dawidd6/action-download-artifact@v6
+        uses: dawidd6/action-download-artifact@v11
         with:
           name: fitbit-user-details
           path: temp_downloads
           # The 'workflow' field specifies the name of the workflow that generated the artifact.
           # Since your workflow is named "Fitbit Daily Data Fetch", we use that.
-          workflow: Fitbit Daily Data Fetch
+          workflow: main.yml
           # Optional: Filter to only download artifacts from the 'main' branch
           branch: main
 
