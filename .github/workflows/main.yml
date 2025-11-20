@@ -28,12 +28,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Restore previous Fitbit token
-        uses: actions/download-artifact@v4
+      - name: Restore previous Fitbit token (Fixed)
+        uses: dawidd6/action-download-artifact@v6
         with:
           name: fitbit-user-details
           path: temp_downloads
-        continue-on-error: true
+          # The 'workflow' field specifies the name of the workflow that generated the artifact.
+          # Since your workflow is named "Fitbit Daily Data Fetch", we use that.
+          workflow: Fitbit Daily Data Fetch
+          # Optional: Filter to only download artifacts from the 'main' branch
+          branch: main
 
       - name: Save initial Fitbit user details
         run: |
