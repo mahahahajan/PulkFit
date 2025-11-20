@@ -74,6 +74,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fitbit-user-details
-          path: temp_downloads/user_details.json
+          path: temp_downloads
           overwrite: true
           retention-days: 30
