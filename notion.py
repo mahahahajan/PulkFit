@@ -105,6 +105,7 @@ def create_metric_page(notion, date_str, name, metric_type, value):
 
 def extract_metrics(date_str, day_data):
     metrics = []
+    print(f"Day data found was: {day_data}")
 
     steps = day_data.get("steps", 0)
     if steps:
@@ -177,6 +178,7 @@ def push_daily_metrics():
     notion = Client(auth=NOTION_API_KEY)
     combined = load_combined_data()
     today = (datetime.date.today() - timedelta(days=1)).isoformat()  # yesterday
+    print(f"Push daily metrics for {today} ")
 
     if today not in combined:
         print(f"No data for today ({today}) in combined_v5.json")
