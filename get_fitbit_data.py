@@ -117,6 +117,7 @@ def merge_and_save(new_data):
 
     combined.update(new_data)
     combined = dict(sorted(combined.items()))
+    print(combined)
     with open(COMBINED_FILE, 'w') as f:
         json.dump(combined, f, indent=2)
 
