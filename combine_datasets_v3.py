@@ -138,8 +138,8 @@ def combine_fitbit_hevy(fitbit_data, hevy_workouts, user_weight_lbs=160):
 
     # --------- Hevy ----------
     for workout in hevy_workouts:
-        print(f"Hevy dates: {date}")
         date = workout["Date"]
+        print(f"Hevy dates: {date}")
         combined[date]["workout_title"] = workout.get("Workout_Title")
         combined[date]["total_workout_duration"] = workout.get("Workout_Duration", "0:00")
         combined[date]["exercises"] = []

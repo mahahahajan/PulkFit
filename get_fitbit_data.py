@@ -31,17 +31,15 @@ def load_json(secret_value):
     return json.loads(secret_value)
 
 # --- Determine the last full Fitbit day ---
-def get_yesterday_date_et():
-    et = pytz.timezone("America/New_York")
+def get_today_date_et():
     now_et = datetime.now()
-    yesterday_et = now_et - timedelta(days=1)
-    return yesterday_et.date()
+    return now_et.date()
 
 # ------------------------
 # Fetch Fitbit Data
 # ------------------------
 def fetch_fitbit_data(auth2_client, days=7):
-    today = get_yesterday_date_et()
+    today = get_today_date_et()
     print(f"Using {today} as reference date for Fitbit merging")
     period = f"{days}d"
 
