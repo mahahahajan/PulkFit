@@ -184,7 +184,7 @@ def push_daily_metrics():
         print(f"No data for today ({today}) in combined_v5.json")
         return
     
-    print(f"found combined to be {combined.popitem()}")
+    # print(f"found combined to be {combined.popitem()}")
 
     metrics = extract_metrics(today, combined[today])
     for metric_type, name, value in metrics:
