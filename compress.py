@@ -311,7 +311,7 @@ if __name__ == "__main__":
     print("Compressed recent:", compress_recent_workouts(combined_data, n=3))
     print("Week volume:", compute_weekly_volume(combined_data))
 
-    llm_payload = build_llm_payload(combined_data, date_today="2025-11-16", recent_n=3)
+    llm_payload = build_llm_payload(combined_data, recent_n=3)
     print("Payload:", llm_payload)
 
     with open(output_file, "w+") as f: 
